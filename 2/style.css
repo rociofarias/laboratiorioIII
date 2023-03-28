@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-decoration: underline;
+    text-align: center;
+    height: 200px;    
+width: 200px;
+padding: 10px;
+margin: 10px;
+}
+
+.none{
+    border: none;
+}
+
+.dotted{
+    border: dotted;
+    border-color: aquamarine;
+
+}
+
+.dashed{
+    border: dashed;
+    border-color: rgba(255, 0, 0, 0.397);
+
+}
+
+.solid{
+    border: solid;
+    border-color: blue;
+
+}
+
+.double{
+    border: double;
+    border-color: violet;
+
+}
+
+.groove{
+    border: groove;
+    border-color: green;
+
+}
+
+.ridge{
+    border: ridge;
+    border-color: fuchsia;
+
+}
+
+.inset{
+    border: inset;
+    border-color: royalblue;
+
+}
+
+.outset{
+    border: outset;
+    border-color: gray;
+
+}
+
+div{
+display: flex;
+flex-wrap: wrap;
+}
