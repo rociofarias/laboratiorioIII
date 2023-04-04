@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    background-image: url(./recursos/7922058.jpg);
+    background-size:cover;
+    width: 400px;
+    height: 200px;
+    background-position-y: -25px;
+    border-radius: 30%;
+}
+
+.banner{
+    background-image: url(./recursos/mesa-oficina-taza-cafe-teclado-bloc-notas.jpg);   
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 200px;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    height: 30px;
+    display: block;
+}
+
+nav ul{
+    height: 30px;
+    display: flex;
+}
+
+nav ul li{
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+#cuerpo{
+    display: flex;
+}
+
+.cuerpo-izq{
+    width: 20%;
+    background-color: red;
+}
+
+.cuerpo-cen{
+    width:60%;
+
+}
+
+.cuerpo-der{
+    width: 20%;
+    background-color: skyblue;
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h1{
+    margin-bottom: 35px;
+    text-align: center;
+}
